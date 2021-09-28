@@ -4,34 +4,12 @@ import basket from "./../../assets/images/basket.png";
 import like from "./../../assets/images/like.png";
 import authAvatar from "./../../assets/images/authAvatar.png";
 
-export const Container = styled.div`
-  display: flex;
-  align-items: center;
-  width: 972px;
-  height: 41px;
-  margin-top: 43px;
-  margin-left: 45px;
-  background: pink;
-`;
-
-export const LogoBlock = styled.div`
-  display: flex;
-  align-items: center;
-  width: 50%;
-`;
-
 export const Logo = styled.img.attrs({
   src: `${logo}`,
   alt: "logo",
 })`
   width: 40px;
   height: 40px;
-`;
-
-export const DescriptionBlock = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin-left: 16px;
 `;
 
 export const Title = styled.p`
@@ -53,13 +31,6 @@ export const Description = styled.p`
   font-size: 14px;
   line-height: 17px;
   color: #9d9d9d;
-`;
-
-export const AuthBlock = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  width: 50%;
 `;
 
 export const Basket = styled.img.attrs({
